@@ -8,11 +8,11 @@ import styles from '../sass/modules/app.module.scss'
         <div>
             <div class=${styles['d-flex-center']}>
                 <h1 class=${styles['font-weight-500']}>{{ message }}</h1>
-                <img class=${styles['angular-img']} src='./src/images/angular.png' alt='angular logo' />
+                <a href='https://angularjs.org/'><img class=${styles['angular-img']} src='./src/images/angular.png' alt='angular logo' /></a>
             </div>
             <div class=${styles['d-flex-center']}>
                 <p class=${styles['dark-cyan']}>Welcome to Angular with Webpack 5.88!</p>
-                <img class=${styles.webpack} src='./src/images/webpack.png' alt='webpack img'/>
+                <a href='https://webpack.js.org/'><img class=${styles.webpack} src='./src/images/webpack.png' alt='webpack img'/></a>
             </div>
         </div>
         <footer>
