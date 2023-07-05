@@ -8,11 +8,14 @@ import styles from '../sass/modules/app.module.scss'
         <div>
             <div class=${styles['d-flex-center']}>
                 <h1 class=${styles['font-weight-500']}>{{ message }}</h1>
-                <a href='https://angularjs.org/'><img class=${styles['angular-img']} src='./src/images/angular.png' alt='angular logo' /></a>
+                <a href='https://angular.io/'><img class=${styles['angular-img']} src='./src/images/angular.png' alt='angular logo' /></a>
             </div>
             <div class=${styles['d-flex-center']}>
                 <p class=${styles['dark-cyan']}>Welcome to Angular with Webpack 5.88!</p>
                 <a href='https://webpack.js.org/'><img class=${styles.webpack} src='./src/images/webpack.png' alt='webpack img'/></a>
+            </div>
+            <div class=${styles['d-flex-w-max']}>
+                <button class=${styles.button} (click)="addCount()">Count is {{ count }}</button>
             </div>
         </div>
         <footer>
@@ -30,4 +33,11 @@ import styles from '../sass/modules/app.module.scss'
 })
 export class AppComponent {
   message = 'Standalone';
+
+  count: number = 0;
+
+  addCount() {
+    this.count++;
+  }
 }
+
