@@ -1,0 +1,75 @@
+.container {
+    min-width: 100%;
+    margin: 0;
+    position: absolute;
+    min-height: 100vh;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(221, 157, 103, 1) 0%,
+      rgba(207, 85, 29, 0.985) 52%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden; /* Add overflow-x: hidden to hide horizontal scrollbar */
+  }
+  
+  /* ...rest of the CSS code... */
+  
+  .angular-img {
+    width: 40vh;
+  }
+  
+  .font-weight-500 {
+    font-weight: 500;
+  }
+  
+  .d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .github {
+    width: 90px;
+  }
+  
+  .sass {
+    width: 50px;
+  }
+  
+  .webpack {
+    width: 60px;
+  }
+  
+  .angular-img,
+  .webpack {
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  
+  .webpack:hover {
+    filter: drop-shadow(0 0 2em #f3f3f1fb);
+  }
+  
+  .angular-img:hover {
+    filter: drop-shadow(0 0 2em #470e0cfb);
+  }
+  
+  .button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .d-flex-w-max {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  

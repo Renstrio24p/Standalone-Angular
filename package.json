@@ -1,0 +1,40 @@
+{
+  "name": "standalone-angular-1.0.3",
+  "version": "1.0.3",
+  "description": "webpack angular",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server .",
+    "build": "webpack ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/core": "^16.1.3",
+    "@angular/platform-browser": "^16.1.3",
+    "@angular/platform-browser-dynamic": "^16.1.3",
+    "@angular/router": "^16.1.3",
+    "bootstrap": "^5.3.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "zone.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "autoprefixer": "^10.4.14",
+    "css-loader": "^6.8.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
