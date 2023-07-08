@@ -3,8 +3,8 @@ import * as bootstrap from 'bootstrap';
 
 @Component({
   selector: 'app-root',
-  templateUrl: '../app/app.component.html',
-  styleUrls: ['../sass/modules/app.module.scss']
+  templateUrl: './src/app/app.component.html',
+  styleUrls: ['./src/sass/modules/app.module.scss']
 })
 export class AppComponent implements OnInit {
   message = 'Standalone';
